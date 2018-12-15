@@ -1,9 +1,11 @@
 body{
     background-color: #ecf0f1;
+    background-image: url("http://noorelectricals.com/img/w.png");
+
 }
 
 #container{
-    width: 100%;
+    /* width: 100%; */
     height: 100vh;
     
     position: absolute;
@@ -15,30 +17,31 @@ body{
     width: 500px;
     height: 500px;
     
-    position:absolute;
     margin-top: -300px;
-    top:50%;
+    position: fixed;
+    top: 386px;
 
     border-radius: 5px;
-    border: 5px solid #2c3e50;
+    border: 5px solid rgba(128, 128, 128, 0.774);
     border-bottom: none;
     box-sizing: border-box;
     
-    background-color: #c0392b;
+    background-color: rgba(128, 128, 128, 0.774);
     padding: 10px;
+
 }
 
 #block{
     position: absolute;
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     
-    background-color: #27ae60;
+    background-color: white;
     border-radius: 50%;
 }
 
 #arrows{
-    border: 5px solid #2c3e50;
+    border: 5px solid rgba(128, 128, 128, 0.774);
     border-top: none;
     box-sizing: border-box;
     border-radius: 5px;
@@ -48,8 +51,12 @@ body{
     position: absolute;
     bottom: 100px;
     
-    background-color: #7f8c8d;
+    background-color: #d3d0d2;
+    
+    position: fixed;
+    top: 502px;
 }
+
 
 .arrow{
     border-radius: 5px;
@@ -62,7 +69,7 @@ body{
     height:60px;
     line-height: 60px;
     
-    background-color: #95a5a6;
+    background-color: #a39fa2;
     font-size: 25px;
     font-weight: bold;
     cursor: pointer;
@@ -71,4 +78,64 @@ body{
 
 .arrow:active{
     background-color: #7f8c8d
+}
+
+#box {
+    background-color: rgba(128, 128, 128, 0.664);
+    border-radius: 5px;
+    width: 170px;
+    text-align: center;
+    line-height: 50px;
+    font-family: 'Indie Flower', cursive;
+    color: black;
+    position: fixed;
+    left: 1188px;
+    bottom: 14px;
+}
+
+.my-subHeader{
+    font-family: 'Indie Flower', cursive;
+    font-size: 47px;
+    position: fixed;
+    top: -25px;
+    left: 630px;
+}
+
+.Instructions{
+    font-family: 'Indie Flower', cursive;
+    position: fixed;
+    top: 0px;
+    width: 288px;
+    left: 0px;
+    height: 930px;
+    background-color: rgba(128, 128, 128, 0.548);
+}
+
+.game{
+    width: 288px;
+    top: -25px;
+    background-color: rgb(230, 224, 224);
+    line-height: 84px;
+    font-size: 23px;
+    position: fixed;
+    text-align: center;
+
+}
+
+.move-Instructions{
+    position: fixed;
+    top: 110px;
+    width: 296px;
+}
+
+.boutton-done{
+    position: fixed;
+    left: 1188px;
+    width: 170px;
+    text-align: center;
+    line-height: 50px;
+    font-family: 'Indie Flower', cursive;
+    background-color: rgba(128, 128, 128, 0.664);
+    border-radius: 5px;
+    font-size: 30px;
 }
